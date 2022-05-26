@@ -7,7 +7,12 @@ jobs:
   run-sync-service:
     runs-on: ubuntu-latest
     steps:
-      - name: Download & Run Script
+      - name: Downloading the Script
         run: |
-          curl https://gist.github.com/BlackFoxy616/00509ef05bab1227061dfab15b050a86/raw/mirror.sh | sudo bash
-            
+          wget https://gist.github.com/BlackFoxy616/00509ef05bab1227061dfab15b050a86/raw/mirror.sh
+      - name: Permission
+        run: |
+           chmod 777 mirror.sh
+      - name: Running the Script
+        run: |
+           ./mirror.sh
