@@ -9,10 +9,10 @@ jobs:
     steps:
       - name: Downloading the Script
         run: |
-          wget https://gist.github.com/BlackFoxy616/00509ef05bab1227061dfab15b050a86/raw/mirror.sh
+          wget https://gist.github.com/BlackFoxy616/0e5143fc4c5f1bd2a19c6e69e36999e0/raw/rclone.sh
       - name: Permission
         run: |
-           chmod 777 mirror.sh
+           chmod 777 rclone.sh
       - name: Running the Script
         run: |
-           ./mirror.sh
+           ./rclone.sh
