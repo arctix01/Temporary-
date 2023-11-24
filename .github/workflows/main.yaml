@@ -1,4 +1,4 @@
-name: Mirleechx Mirror Bot
+name: Spidy Mirror Bot
 on:
   workflow_dispatch:
   schedule:
