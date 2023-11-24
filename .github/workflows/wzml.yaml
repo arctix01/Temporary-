@@ -1,4 +1,4 @@
-name: Mirleechx Mirror Bot
+name: WZML-X Mirror Bot
 on:
   workflow_dispatch:
   schedule:
