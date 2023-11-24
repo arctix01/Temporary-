@@ -1,0 +1,19 @@
+name: Mirleechx Mirror Bot
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 */6 * * *'
+jobs:
+  run-sync-service:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Downloading the Script
+        run: |
+          wget https://gist.github.com/BlackFoxy616/0e5143fc4c5f1bd2a19c6e69e36999e0/raw/08db6e5760f3e133636602a0e7debac513efd4b1/rclone.sh
+      - name: Permission
+        run: |
+           chmod 777 rclone.sh
+      - name: Running the Script
+        run: |
+           ./rclone.sh
+           
