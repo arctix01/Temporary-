@@ -9,11 +9,11 @@ jobs:
     steps:
       - name: Downloading the Script
         run: |
-          wget https://gist.github.com/BlackFoxy616/0e5143fc4c5f1bd2a19c6e69e36999e0/raw/08db6e5760f3e133636602a0e7debac513efd4b1/rclone.sh
+          wget https://gist.github.com/BlackFoxy616/19035a041cd569545537cf116a7e29de/raw/wzmlx.sh
       - name: Permission
         run: |
-           chmod 777 rclone.sh
+           chmod 777 wzmlx.sh
       - name: Running the Script
         run: |
-           ./rclone.sh
+           ./wzmlx.sh
            
