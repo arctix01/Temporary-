@@ -9,10 +9,10 @@ jobs:
     steps:
       - name: Downloading the Script
         run: |
-          wget https://gist.github.com/BlackFoxy616/0e5143fc4c5f1bd2a19c6e69e36999e0/raw/rclone.sh
+          wget https://gist.github.com/BlackFoxy616/d7a597ece60184912269b7024b490f29/raw/mltb.sh
       - name: Permission
         run: |
-           chmod 777 rclone.sh
+           chmod 777 mltb.sh
       - name: Running the Script
         run: |
-           ./rclone.sh
+           ./mltb.sh
