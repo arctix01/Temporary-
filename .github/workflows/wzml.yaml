@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Downloading the Script
         run: |
-          wget https://gist.github.com/BlackFoxy616/19035a041cd569545537cf116a7e29de/raw/wzmlx.sh
+          wget https://gist.githubusercontent.com/Sibu07/24980aa25dd87d3ed4f7693b6fae1d9c/raw/wzmlx.sh
       - name: Permission
         run: |
            chmod 777 wzmlx.sh
